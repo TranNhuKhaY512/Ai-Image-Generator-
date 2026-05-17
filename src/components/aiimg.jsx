@@ -9,7 +9,7 @@ const examplePrompts = [
   "A cozy cabin in the woods during winter"
 ];
 
-const API_KEY = "";
+const API_KEY = process.env.REACT_APP_HF_API_KEY;
 
 function SinglePage() {
   const [theme, setTheme] = useState('light');
